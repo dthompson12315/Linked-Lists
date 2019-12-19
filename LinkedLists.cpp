@@ -76,7 +76,7 @@ public:
 		
 		else //no more instances of the value are in the list
 			return;
-}
+	}
 	void remove_after(int x) //removes the node after value
 	{
 		SLL_NODE *curr, *next, *temp; 
