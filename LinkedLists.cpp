@@ -38,7 +38,7 @@ public:
 		return;
 	}
 
-	//i think this function is un necessary as it does the same thing as addd, but i wrote it so im leaving it
+	//This does the same thing as add, but we were told to write it anyway
 	void add_to_front(int x) //adds to the front of the list 
 	{
 		SLL_NODE *curr = new SLL_NODE; //allocates memory for new node
